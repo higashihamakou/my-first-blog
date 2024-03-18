@@ -1,10 +1,28 @@
-.page-header {
-    background-color: #c20031;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    text-align: justify;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+.page-header {
+    background-color: brown;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    height: 200px;
+}
+
+.page-header a,
+.ex {
+    color: #ffffff;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
@@ -14,15 +32,18 @@
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+h1,
+h2,
+h3,
+h4 {
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
 }
 
 .date {
     color: #828282;
 }
 
-.flex{
+.flex {
     display: flex;
     column-gap: 5px;
 }
@@ -31,14 +52,17 @@ h1, h2, h3, h4 {
     float: right;
 }
 
-.post-form textarea, .post-form input {
+.post-form textarea,
+.post-form input {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 16pt;
     margin-right: 20px;
 }
 
@@ -46,6 +70,15 @@ h1, h2, h3, h4 {
     margin-bottom: 70px;
 }
 
-.post h2 a, .post h2 a:visited {
+.post h2 a,
+.post h2 a:visited {
     color: #000000;
+}
+
+label {
+    padding-right: 5px;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
