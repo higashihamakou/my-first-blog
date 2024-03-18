@@ -82,3 +82,7 @@ label {
 .comment {
     margin: 20px 0px 20px 20px;
 }
+
+.login_f td {
+    padding-bottom: 10px;
+}
